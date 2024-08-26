@@ -6,7 +6,7 @@ import './styles/styles.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react">
       <div className="App">
 		<main>
           <Routes>
