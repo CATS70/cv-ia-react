@@ -22,7 +22,7 @@ const Home = () => {
       <button onClick={openModal} className="btn">Voir le CV et le Chatbot</button>
       <div className="ai-images">
         <img src={interviewImage} alt="Interview" className="ai-image"/>
-        <img src={photoCvImage} alt="Photo CV" className="ai-image"/>
+        <img src={photoCvImage} alt="Portrait de Christophe FELIX" className="ai-image"/>
         <img src={neuralNetworkImage} alt="Neural Network" className="ai-image"/>
       </div>
       {isModalOpen && (

@@ -1,4 +1,3 @@
-import axios from 'axios';
 
 const API_URL = process.env.CV_API_URL || 'http://localhost:8000/api';
 
