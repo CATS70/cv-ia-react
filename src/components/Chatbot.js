@@ -92,7 +92,7 @@ const Chatbot = () => {
       </div>
       {isLoading && (
         <div id="loading-indicator">
-          <img src="/images/Dancing_kitty.gif" alt="Chargement..." />
+          <img src="/react/images/Dancing_kitty.gif" alt="Chargement..." />
         </div>
       )}
     </div>
