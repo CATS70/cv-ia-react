@@ -1,5 +1,5 @@
 
-const API_URL = process.env.CV_API_URL || 'http://localhost:8000/api';
+const API_URL = process.env.REACT_APP_CV_API_URL || 'http://localhost:8000/api';
 
 export const getChatbotResponse = (question, onChunk, onDone, onError) => {
   const eventSource = new EventSource(`${API_URL}/chatbot/?question=${encodeURIComponent(question)}`, {
